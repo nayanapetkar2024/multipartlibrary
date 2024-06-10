@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace 'com.utils.multipartlibrary'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         minSdk 24
         //noinspection OldTargetApi
-        targetSdk 33
+        targetSdk 34
 
         /* testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
          consumerProguardFiles "consumer-rules.pro"*/
