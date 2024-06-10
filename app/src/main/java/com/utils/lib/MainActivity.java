@@ -1,8 +1,11 @@
-package com.utils.multipartlibrary;
+package com.utils.lib;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.utils.multipartlibrary.MultipartLibrary;
+import com.utils.multipartlibrary.R;
 
 public class MainActivity extends AppCompatActivity {
 
