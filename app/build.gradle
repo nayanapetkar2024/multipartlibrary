@@ -4,13 +4,13 @@ plugins {
 
 android {
     namespace 'com.utils.multipartlibrary'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.utils.multipartlibrary"
         minSdk 24
         //noinspection OldTargetApi
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.2"
 
