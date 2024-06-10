@@ -4,7 +4,7 @@ plugins {
 }
 
 //group = 'com.github.nayanapetkar2024'
-//version = '1.3'
+//version = '1.4'
 
 android {
     namespace 'com.utils.multipartlibrary'
@@ -62,7 +62,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.nayanapetkar2024'
             artifactId = 'multipartlibrary'
-            version = '1.3'
+            version = '1.4'
 
             afterEvaluate {
                 from components.release
