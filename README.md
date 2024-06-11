@@ -21,3 +21,29 @@ Content-Type: A header that indicates the type of data in the part (e.g., text/p
 Uploading images or videos from a mobile app to a server.
 Sending a form submission with both text and file inputs.
 Posting data to RESTful APIs that require file uploads.
+
+## Deployment
+
+How to
+To get a Git project into your build:
+
+Step 1. Add the JitPack repository to your build file
+
+gradle
+maven
+sbt
+leiningen
+Add it in your root build.gradle at the end of repositories:
+
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.nayanapetkar2024:multipartlibrary:1.5'
+	}
